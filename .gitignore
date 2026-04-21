@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local environment / secrets
+.env
+
+# Tableau temporary / packaged files if not needed
+*.hyper
+*.tde
+*.twbr
+*.twbx
+
+# CSV exports / local generated outputs
+*.csv
+
+# SQL Server local backup / temp files
+*.bak
+*.tmp
