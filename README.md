@@ -98,7 +98,7 @@ It demonstrates my ability to:
 
 ---
 
-## Data Model and Structure
+## Data Structure and Analytical Layers
 
 The project uses a synthetic but relational SQL Server model built around four core entities:
 
@@ -115,7 +115,7 @@ Additional semantic layers were created using SQL views, including:
 - time intelligence
 - retention action base
 
-![Data Model](assets/data_model.png)
+The project is built on a relational SQL Server structure, with Tableau connected primarily to curated analytical views rather than raw fact tables.
 
 ---
 
@@ -242,3 +242,35 @@ dashboards/ -> dashboard screenshots
 docs/       -> supporting project notes
 deck/       -> executive summary deck
 assets/     -> images and supporting visuals
+
+
+---
+
+## How to Reproduce
+- Run the SQL schema setup script
+- Run the Python data generation script
+- Run the SQL view scripts
+- Run the churn prediction script
+- Connect Tableau to the curated views
+- Rebuild or review the dashboards using the screenshots and documentation provided
+
+
+---
+
+## Why This Project Matters
+This project was built to demonstrate more than technical tool usage.
+It shows how analytics can help a business:
+- identify where value is leaking
+- understand which customers matter most
+- connect operational friction to financial impact
+- convert analysis into prioritised action
+
+---
+
+## About This Portfolio Project
+This is one project in a broader analytics portfolio designed to demonstrate senior-level thinking across:
+- commercial analytics
+- customer experience analytics
+- metric design
+- dashboard product design
+- executive communication
